@@ -56,7 +56,7 @@ Built-in rules provided by [ESLint][eslint-rules].
 ### Filenames
 
 ```json
-extends: ["@forgerock/filenames"]
+extends: ["@forgerock/eslint-config/filenames"]
 ```
 
 Filename rules provided by [eslint-plugin-filenames][eslint-plugin-filenames].
@@ -64,7 +64,7 @@ Filename rules provided by [eslint-plugin-filenames][eslint-plugin-filenames].
 ### JSX a11y
 
 ```json
-extends: ["@forgerock/jsx-a11y"]
+extends: ["@forgerock/eslint-config/jsx-a11y"]
 ```
 
 JSX accessiblity rules provided by [eslint-plugin-jsx-a11y][eslint-plugin-jsx-a11y].
@@ -72,7 +72,7 @@ JSX accessiblity rules provided by [eslint-plugin-jsx-a11y][eslint-plugin-jsx-a1
 ### Promise
 
 ```json
-extends: ["@forgerock/promise"]
+extends: ["@forgerock/eslint-config/promise"]
 ```
 
 Promise rules provided by [eslint-plugin-promise][eslint-plugin-promise].
@@ -80,7 +80,7 @@ Promise rules provided by [eslint-plugin-promise][eslint-plugin-promise].
 ### React
 
 ```json
-extends: ["@forgerock/react"]
+extends: ["@forgerock/eslint-config/react"]
 ```
 
 React and JSX rules provided by [eslint-plugin-react][eslint-plugin-react].
