@@ -16,6 +16,7 @@
   - [via Yarn](#via-yarn)
   - [via NPM](#via-npm)
 - [Usage](#usage)
+  - [Babel](#babel)
   - [Built-In](#built-in)
   - [Filenames](#filenames)
   - [JSX a11y](#jsx-a11y)
@@ -45,6 +46,16 @@ npm install @forgerock/eslint-config
 ## Usage
 
 Add one or more of the following rule sets to the `extends` section of your `.eslintrc.js` configuration.
+
+### Babel
+
+```json
+extends: ["@forgerock/eslint-config/babel"]
+```
+
+Babel rules provided by [eslint-plugin-babel][eslint-plugin-babel].
+
+Use these rules if you are using the `babel-eslint` parser.
 
 ### Built-In
 
@@ -98,6 +109,7 @@ React and JSX rules provided by [eslint-plugin-react][eslint-plugin-react].
 
 Contribute to ForgeRock ESLint Shareable Configuration by opening a Pull Request.
 
+[eslint-plugin-babel]: https://github.com/babel/eslint-plugin-babel
 [eslint-plugin-filenames]: https://github.com/selaux/eslint-plugin-filenames
 [eslint-plugin-jsdoc]: https://github.com/gajus/eslint-plugin-jsdoc
 [eslint-plugin-jsx-a11y]: https://github.com/evcohen/eslint-plugin-jsx-a11y
