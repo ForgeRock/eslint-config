@@ -1,6 +1,6 @@
 {
   "name": "@forgerock/eslint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Phil Ostler <phil.ostler@forgerock.com>",
   "description": "ForgeRock’s JavaScript Style Guide as a ESLint Shareable Configuration.",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "url": "https://github.com/ForgeRock/eslint-config.git"
   },
   "scripts": {
-    "release": "yarn publish"
+    "release": "npm publish"
   },
   "peerDependencies": {
     "eslint": "^5.11.1",
