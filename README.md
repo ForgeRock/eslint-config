@@ -19,6 +19,7 @@
   - [Built-In](#built-in)
   - [Filenames](#filenames)
   - [JSX a11y](#jsx-a11y)
+  - [JSDoc](#jsdoc)
   - [Promise](#promise)
   - [React](#react)
 - [Contributing](#contributing)
@@ -69,6 +70,14 @@ extends: ["@forgerock/eslint-config/jsx-a11y"]
 
 JSX accessiblity rules provided by [eslint-plugin-jsx-a11y][eslint-plugin-jsx-a11y].
 
+### JSDoc
+
+```json
+extends: ["@forgerock/eslint-config/jsdoc"]
+```
+
+JSDoc rules provided by [eslint-plugin-jsdoc][eslint-plugin-jsdoc].
+
 ### Promise
 
 ```json
@@ -90,6 +99,7 @@ React and JSX rules provided by [eslint-plugin-react][eslint-plugin-react].
 Contribute to ForgeRock ESLint Shareable Configuration by opening a Pull Request.
 
 [eslint-plugin-filenames]: https://github.com/selaux/eslint-plugin-filenames
+[eslint-plugin-jsdoc]: https://github.com/gajus/eslint-plugin-jsdoc
 [eslint-plugin-jsx-a11y]: https://github.com/evcohen/eslint-plugin-jsx-a11y
 [eslint-plugin-promise]: https://github.com/xjamundx/eslint-plugin-promise
 [eslint-plugin-react]: https://github.com/yannickcr/eslint-plugin-react
