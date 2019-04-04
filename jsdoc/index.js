@@ -5,6 +5,7 @@ module.exports = {
     rules: {
         "jsdoc/check-param-names": "error",
         "jsdoc/check-tag-names": "error",
+        "jsdoc/check-types": "error",
         "jsdoc/newline-after-description": ["error", "never"],
         "jsdoc/require-returns-type": "error",
         "jsdoc/valid-types": "error"
