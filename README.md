@@ -27,7 +27,7 @@
 
 ## Prerequisites
 
-ForgeRock ESLint Shareable Configuration requires [ESLint][eslint] 5.x.
+ForgeRock ESLint Shareable Configuration requires [ESLint][eslint] 6.x.
 
 ## Installation
 
