@@ -23,6 +23,7 @@
   - [JSDoc](#jsdoc)
   - [Promise](#promise)
   - [React](#react)
+  - [React Hooks](#react-hooks)
 - [Contributing](#contributing)
 
 ## Prerequisites
@@ -105,6 +106,14 @@ extends: ["@forgerock/eslint-config/react"]
 
 React and JSX rules provided by [eslint-plugin-react][eslint-plugin-react].
 
+### React Hooks
+
+```json
+extends: ["@forgerock/eslint-config/react-hooks"]
+```
+
+React Hook rules provided by [eslint-plugin-react-hooks][eslint-plugin-react-hooks].
+
 ## Contributing
 
 Contribute to ForgeRock ESLint Shareable Configuration by opening a Pull Request.
@@ -115,5 +124,6 @@ Contribute to ForgeRock ESLint Shareable Configuration by opening a Pull Request
 [eslint-plugin-jsx-a11y]: https://github.com/evcohen/eslint-plugin-jsx-a11y
 [eslint-plugin-promise]: https://github.com/xjamundx/eslint-plugin-promise
 [eslint-plugin-react]: https://github.com/yannickcr/eslint-plugin-react
+[eslint-plugin-react-hooks]: https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
 [eslint-rules]: http://eslint.org/docs/rules
 [eslint]: http://eslint.org
