@@ -51,7 +51,6 @@ module.exports = {
         "operator-linebreak": "error",
         "padded-blocks": ["error", "never"],
         "quote-props": ["error", "as-needed", {
-            "keywords": true,
             "unnecessary": false
         }],
         "quotes": ["error", "double", "avoid-escape"],
