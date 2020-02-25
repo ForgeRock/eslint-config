@@ -3,7 +3,7 @@ module.exports = {
         "react/jsx-boolean-value": "error",
         "react/jsx-closing-bracket-location": "error",
         "react/jsx-closing-tag-location": "error",
-        "react/jsx-curly-spacing": ["error", "always"],
+        "react/jsx-curly-spacing": ["error", "never"],
         "react/jsx-equals-spacing": "error",
         "react/jsx-filename-extension": "error",
         "react/jsx-first-prop-new-line": ["error", "multiline"],
